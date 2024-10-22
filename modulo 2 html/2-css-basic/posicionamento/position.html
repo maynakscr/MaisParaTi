@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+
+    <style>
+       .container{
+        position: relative;
+        background-color: aliceblue;
+        width: 800px;
+        margin: 20px auto;
+        border: 3px solid;
+        top: 10px;
+        left: 30px;
+       }
+
+       .absolute{
+        position: absolute;
+        border: 3px solid blue;
+        top: 30px;
+        right: 30px;
+        bottom: 100px;
+       }
+
+       .fixed{
+        position: fixed;
+        border: 2px solid blue;
+        top: 300 px;
+        left: 10px;
+       }
+
+       .stick{
+        position: sticky;
+        top: 0;
+        background: yellow;
+       }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1 >Exemplos de Posicionamento</h1>
+
+        <p class="stick">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur neque quibusdam labore nam vel pariatur ipsa, nemo doloribus excepturi vitae, cupiditate error, voluptas modi? Ut, aut accusantium? Commodi, possimus at!</p>
+        
+        <p class="absolute">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, excepturi!</p>
+
+        <p class="fixed">Lorem ipsum dolor sit amet.</p><span></span>
+    
+        <p></p>
+    </div>
+</body>
+</html>
