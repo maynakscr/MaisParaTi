@@ -1,0 +1,11 @@
+
+
+p{
+    color: blue !important;
+}/* inherit: forçar ele a ter as mesmas especificações do anterior*/
+/* !important: obrigatoriedade*/
+p{
+    color: green;
+}
+
+/* o ID tem uma especificidade maior/*
